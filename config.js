@@ -8,8 +8,6 @@ const firebaseConfig = {
   appId: "1:445998604607:web:b12f959ed5078cdeda738a",
   measurementId: "G-TF0C1BHV1W"
 };
-
-
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 const Covid = db.collection("Covid19");
